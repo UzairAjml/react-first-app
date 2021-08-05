@@ -1,7 +1,8 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import './App.css';
 
 const Tweet = ({name,moto}) => {
+
 
 
     let  [like,setLike ]=useState(0); 
@@ -9,7 +10,12 @@ const Tweet = ({name,moto}) => {
     const increment=()=>{
         setLike(like+1);
     }
-     
+    useEffect(() => {
+  
+        setLike(like-1);
+         
+    },[ ] )
+         
 
     return (
         <div className='Tweet'>
