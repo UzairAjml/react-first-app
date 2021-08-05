@@ -7,7 +7,7 @@ const Tweet = ({name,moto}) => {
     let  [like,setLike ]=useState(0); 
 
     const increment=()=>{
-        setLike(like++);
+        setLike(like+1);
     }
      
 
