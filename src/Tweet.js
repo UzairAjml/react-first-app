@@ -10,11 +10,13 @@ const Tweet = ({name,moto}) => {
     const increment=()=>{
         setLike(like+1);
     }
+
     useEffect(() => {
   
         setLike(like-1);
          
-    },[ ] )
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[] )
          
 
     return (
