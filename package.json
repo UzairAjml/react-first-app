@@ -13,7 +13,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage":"https://github.com/UzairAjml/react-first-app",
+  "homepage":"https://uzairajml.github.io/react-first-app",
   "scripts": { 
     "start": "react-scripts start",
     "build": "react-scripts build",
