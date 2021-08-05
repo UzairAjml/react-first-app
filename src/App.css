@@ -1,0 +1,36 @@
+.App {
+  min-height: 100vh;
+   
+  background-color: rgb(35, 207, 207);
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+
+}
+
+.Tweet {
+  width: 300px;
+  height: 300px;
+  border :2px solid black;
+  background-color: white;
+  border-radius: 30px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Likes{
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  offset:20px;
+  justify-content: space-around;
+
+}
+
+#btn{
+  background-color: violet;
+  width: 60px;
+}
