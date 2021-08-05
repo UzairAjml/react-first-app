@@ -16,9 +16,9 @@
 
    return (
      <div className='App'>
-          
-        {villians.map((villian, key)=>(
-          <Tweet key={key} name={villian.name} moto={villian.moto}/>
+         
+        {villians.map(villian=>(
+          <Tweet name={villian.name} moto={villian.moto}/>
         ))}
      </div>
    )
